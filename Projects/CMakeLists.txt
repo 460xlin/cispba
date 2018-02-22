@@ -5,3 +5,5 @@ endif()
 
 add_subdirectory(partio_example)
 add_subdirectory(eigen_example)
+add_subdirectory(hm03)
+add_subdirectory(PBD)
