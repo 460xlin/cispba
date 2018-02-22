@@ -5,11 +5,64 @@
 #include <Eigen/Core>
 #include <Eigen/Dense>
 #include "tiny_obj_loader.h"
-using namespace std;
+
+using namespace Eigen;
+constexpr int dim = 3;
 
 
-template<class T>	
-void createFromObj(const char* filename)
+template <class T>
+class Particles
+{
+public:
+	void createFromObj(const char*);
+	Particles();
+	void assignMass();
+	void assignInitialVelocity();
+	void updatePosition();
+	void updateVelocity();
+
+private:
+	std::vector< Matrix<T, dim, 1> > positions;	
+	std::vector< Matrix<T, dim, 1> > velocites;
+	std::vector<T> inverseMass;
+};
+
+
+
+template<class T>
+Particles<T>::Particles()
+{
+
+
+}
+
+
+template<class T>
+void Particles <T>::assignMass()
+{
+
+}
+
+template<class T>
+void Particles <T>::assignInitialVelocity()
+{
+
+}
+
+template<class T>
+void Particles <T>::updatePosition()
+{
+
+}
+
+template<class T>
+void Particles <T>::updateVelocity()
+{
+
+}
+
+template <class T>	
+void Particles <T>::createFromObj(const char* filename)
 {
 
 	std::vector<tinyobj::shape_t> shapes;
@@ -50,10 +103,14 @@ void createFromObj(const char* filename)
 	}
 	
 }
+
+
 int main(int argc, char* argv[])
 {
 
-	createFromObj<float>("Fidget_Spinner.obj");
+	Particles<float> * temp = new Particles<float>();
+
+	temp->createFromObj("Fidget_Spinner.obj");
 	std::cout << "!!!" << std::endl;
 	return 0;
 }
