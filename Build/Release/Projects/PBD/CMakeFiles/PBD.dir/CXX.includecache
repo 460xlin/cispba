@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/xinyulin/CIS563/cispba/Projects/PBD/distance_constraint.cpp
+distance_constraint.h
+/home/xinyulin/CIS563/cispba/Projects/PBD/distance_constraint.h
+cmath
+-
+
+/home/xinyulin/CIS563/cispba/Projects/PBD/distance_constraint.h
+iostream
+-
+Eigen/Core
+-
+Eigen/Dense
+-
+
 /home/xinyulin/CIS563/cispba/Projects/PBD/main.cpp
 iostream
 -
@@ -35,6 +49,8 @@ Eigen/Dense
 -
 vector
 -
+distance_constraint.h
+/home/xinyulin/CIS563/cispba/Projects/PBD/distance_constraint.h
 
 /home/xinyulin/CIS563/cispba/Projects/PBD/tiny_obj_loader.cc
 cstdlib

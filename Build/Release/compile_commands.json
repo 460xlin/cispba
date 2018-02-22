@@ -113,5 +113,10 @@
   "directory": "/home/xinyulin/CIS563/cispba/Build/Release/Projects/PBD",
   "command": "/usr/bin/c++   -DCISPBA_PLUGIN_DIR=\\\"/home/xinyulin/CIS563/cispba/Build/Release/Plugins\\\" -isystem /usr/include/eigen3 -isystem /home/xinyulin/CIS563/cispba/Build/Release/partio-src/src/lib   -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/PBD.dir/particles.cpp.o -c /home/xinyulin/CIS563/cispba/Projects/PBD/particles.cpp",
   "file": "/home/xinyulin/CIS563/cispba/Projects/PBD/particles.cpp"
+},
+{
+  "directory": "/home/xinyulin/CIS563/cispba/Build/Release/Projects/PBD",
+  "command": "/usr/bin/c++   -DCISPBA_PLUGIN_DIR=\\\"/home/xinyulin/CIS563/cispba/Build/Release/Plugins\\\" -isystem /usr/include/eigen3 -isystem /home/xinyulin/CIS563/cispba/Build/Release/partio-src/src/lib   -fPIC -Wall -Werror=all -Wextra -Wno-unused-parameter -Wcast-align -Wformat=2 -Winit-self -Wmissing-include-dirs -Woverloaded-virtual -Wredundant-decls -march=native -fno-math-errno -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/PBD.dir/distance_constraint.cpp.o -c /home/xinyulin/CIS563/cispba/Projects/PBD/distance_constraint.cpp",
+  "file": "/home/xinyulin/CIS563/cispba/Projects/PBD/distance_constraint.cpp"
 }
 ]

@@ -180,6 +180,33 @@ PBD/fast:
 	cd /home/xinyulin/CIS563/cispba/Build/Release && $(MAKE) -f Projects/PBD/CMakeFiles/PBD.dir/build.make Projects/PBD/CMakeFiles/PBD.dir/build
 .PHONY : PBD/fast
 
+distance_constraint.o: distance_constraint.cpp.o
+
+.PHONY : distance_constraint.o
+
+# target to build an object file
+distance_constraint.cpp.o:
+	cd /home/xinyulin/CIS563/cispba/Build/Release && $(MAKE) -f Projects/PBD/CMakeFiles/PBD.dir/build.make Projects/PBD/CMakeFiles/PBD.dir/distance_constraint.cpp.o
+.PHONY : distance_constraint.cpp.o
+
+distance_constraint.i: distance_constraint.cpp.i
+
+.PHONY : distance_constraint.i
+
+# target to preprocess a source file
+distance_constraint.cpp.i:
+	cd /home/xinyulin/CIS563/cispba/Build/Release && $(MAKE) -f Projects/PBD/CMakeFiles/PBD.dir/build.make Projects/PBD/CMakeFiles/PBD.dir/distance_constraint.cpp.i
+.PHONY : distance_constraint.cpp.i
+
+distance_constraint.s: distance_constraint.cpp.s
+
+.PHONY : distance_constraint.s
+
+# target to generate assembly for a file
+distance_constraint.cpp.s:
+	cd /home/xinyulin/CIS563/cispba/Build/Release && $(MAKE) -f Projects/PBD/CMakeFiles/PBD.dir/build.make Projects/PBD/CMakeFiles/PBD.dir/distance_constraint.cpp.s
+.PHONY : distance_constraint.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -275,6 +302,9 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... test"
+	@echo "... distance_constraint.o"
+	@echo "... distance_constraint.i"
+	@echo "... distance_constraint.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
