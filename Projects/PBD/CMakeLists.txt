@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
 find_package(Eigen3 REQUIRED)
 add_library(eigen INTERFACE IMPORTED)
 
@@ -8,5 +10,4 @@ endif()
 
 add_cispba_executable(PBD main.cpp tiny_obj_loader.h tiny_obj_loader.cc particles.h particles.cpp)
 target_include_directories(PBD SYSTEM PUBLIC ${EIGEN3_INCLUDE_DIR})
-target_link_libraries(PBD eigen)
-target_link_libraries(PBD partio)
+target_link_libraries(PBD eigen partio)

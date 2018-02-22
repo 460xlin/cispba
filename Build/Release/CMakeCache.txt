@@ -194,6 +194,9 @@ LIBRARY_OUTPUT_PATH:PATH=
 //Path to a program.
 MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 
+//Dependencies for the target
+PBD_LIB_DEPENDS:STATIC=general;partio;
+
 //Value Computed by CMake
 partio_BINARY_DIR:STATIC=/home/xinyulin/CIS563/cispba/Build/Release/partio-build
 

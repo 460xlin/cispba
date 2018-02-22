@@ -3,7 +3,7 @@
 
 Projects/PBD/CMakeFiles/PBD.dir/main.cpp.o
  /home/xinyulin/CIS563/cispba/Projects/PBD/main.cpp
- /home/xinyulin/CIS563/cispba/Projects/PBD/tiny_obj_loader.h
+ /home/xinyulin/CIS563/cispba/Projects/PBD/particles.h
  /usr/include/eigen3/Eigen/Cholesky
  /usr/include/eigen3/Eigen/Core
  /usr/include/eigen3/Eigen/Dense
@@ -198,9 +198,6 @@ Projects/PBD/CMakeFiles/PBD.dir/main.cpp.o
  /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseBinaryOps.h
  /usr/include/eigen3/Eigen/src/plugins/MatrixCwiseUnaryOps.h
- partio-src/src/lib/Partio.h
- partio-src/src/lib/PartioAttribute.h
- partio-src/src/lib/PartioIterator.h
 Projects/PBD/CMakeFiles/PBD.dir/particles.cpp.o
  /home/xinyulin/CIS563/cispba/Projects/PBD/particles.cpp
  /home/xinyulin/CIS563/cispba/Projects/PBD/particles.h

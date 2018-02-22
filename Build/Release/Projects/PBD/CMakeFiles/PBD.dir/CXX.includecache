@@ -9,18 +9,8 @@
 /home/xinyulin/CIS563/cispba/Projects/PBD/main.cpp
 iostream
 -
-fstream
--
-sstream
--
-Partio.h
--
-Eigen/Core
--
-Eigen/Dense
--
-tiny_obj_loader.h
-/home/xinyulin/CIS563/cispba/Projects/PBD/tiny_obj_loader.h
+particles.h
+/home/xinyulin/CIS563/cispba/Projects/PBD/particles.h
 
 /home/xinyulin/CIS563/cispba/Projects/PBD/particles.cpp
 particles.h
@@ -42,6 +32,8 @@ iostream
 Eigen/Core
 -
 Eigen/Dense
+-
+vector
 -
 
 /home/xinyulin/CIS563/cispba/Projects/PBD/tiny_obj_loader.cc

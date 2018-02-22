@@ -1,14 +1,13 @@
-#ifndef PARTICLES_H
-#define PARTICLES_H
-
-
+#ifndef _PARTICLES_H
+#define _PARTICLES_H
 #include <iostream>
 #include <Eigen/Core>
 #include <Eigen/Dense>
+#include <vector>
 
 
 using namespace Eigen;
-constexpr int dim = 3;
+const int dim = 3;
 
 
 template <class T>
@@ -29,4 +28,4 @@ private:
 };
 
 
-#endif
+#endif // _MYPARTICLES_H

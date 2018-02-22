@@ -82,3 +82,6 @@ void Particles <T>::createFromObj(const char* filename)
 	}
 	
 }
+
+
+template class Particles<float>;
